@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title> Lemonade Stand Game </title>
+	 <link rel="stylesheet" href="lemonade.css">
+			<h1>Lemonade Stand</h1>
+	</head>
+
+	<body>
+		<span>Weather Forecast for the next 7 days! </span><span id="weatherField"></span><br>
+		<span>Balance:</span><span id="sign">$</span></span><span id="base">30.00</span>
+
+		<table>
+			<tr>
+				<th id="cups" type="input" width="30%">Cups:</th>
+				<td><input value="0" type="text" id="cup"></td>
+				<td><div id="cupcup">0</div></td>
+				<td>Cups</td>
+			</tr>
+			<tr>
+				<th id="sugars" type="input" width="30%">Sugar:</th>
+				<td><input value="0" type="text" id="sugar"></td>
+				<td><div id="sugarsugar">0</div></td>
+				<td>Tsp of Sugar</td>
+			</tr>
+			<tr>
+				<th id="ices" type="input">Ice:</th>
+				<td><input value="0" type="text" id="ice"></td>
+				<td><div id="iceice">0</div></td>
+				<td>Cups of Ice</td>
+			</tr>
+			<tr>
+				<th id="lems" type="input">Lemons:</th>
+				<td><input value="0" type="text" id="lemon"></td>
+				<td><div id="lemonlemon">0</div></td>
+				<td>Lemon Slices</td>
+			</tr>
+		</table>
+		<button id ="start">Sell and Move on to the Next Day!</button>
+		<button id="buy">Buy!</button>
+ 	 <script src="ls_logic.js"></script>
+	</body>
+
+</html>
